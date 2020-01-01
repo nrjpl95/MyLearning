@@ -1,0 +1,19 @@
+<mat-card>
+  <mat-form-field>
+    <input matInput [(ngModel)]="enteredValue" placeholder="Title"><br>
+
+
+  </mat-form-field>
+  <br/>
+  <mat-form-field>
+
+    <input matInput [(ngModel)]="enteredContent" placeholder="Content"/>
+
+  </mat-form-field>
+<br/>
+  <button mat-raised-button
+  color="accent"
+  (click)="onAddPost()" >Click  Me</button>
+</mat-card>
+
+
